@@ -33,14 +33,11 @@ rosters_df = pd.json_normalize(rosters_data)
 rosters_df = pd.DataFrame(rosters_df)
 
 print("Getting player data")
-#players_content = players_api_response.content
-#players_data = json.loads(players_content)
-#players_df = pd.json_normalize(players_data)
-#players_df = pd.DataFrame(players_df)
+players_content = players_api_response.content
+players_data = json.loads(players_content)
+players_df = pd.json_normalize(players_data)
+players_df = pd.DataFrame(players_df)
 
-players_df = pd.read_csv("players.csv")
-
-display(players_df)
-#league_df.to_csv("league.csv")
-#rosters_df.to_csv("roster.csv")
-#players_df.to_csv("players.csv")
+league_df.to_csv("league.csv")
+rosters_df.to_csv("roster.csv")
+players_df.to_csv("players.csv")
