@@ -1,5 +1,4 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12510121&assignment_repo_type=AssignmentRepo)
-# CSCI 422 Project - Josh Betz
+# Fantasy-Football-Player-Analyzer
 
 The world of fantasy football is a complex one to say the least and if you are just starting or are looking to get an edge on your opponents you have found the right place. By using the Sleeper API and the Pro-Football-Reference website, the two sources are combined take the ease off of endless hours of research before a new week of games. Each week your league information (gathered from Sleeper) will be matched up with the Pro-Football-Reference datasets to give you the information needed to decide which players should give you the most point possible, alloying you to beat your pesky family members.
 
